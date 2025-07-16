@@ -6,11 +6,11 @@ const Partner = () => {
   const sponsors = [
     {
       name: "Sponsor 1",
-      logo: "https://yt3.googleusercontent.com/2KpL4E7BBvDnywz0BLJXu0cMG_bqiXv6cMQ_dL4MNRTrQYIB6ydv8Tp1PnEvmx6Sg6d4yp7P=s900-c-k-c0x00ffffff-no-rj",
+      logo: "/assets/partner1.jpg",
     },
     {
       name: "Sponsor 2",
-      logo: "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/DD_Sports_logo.svg/1200px-DD_Sports_logo.svg.png",
+      logo: "/assets/partner2.png",
     },
   ];
 
