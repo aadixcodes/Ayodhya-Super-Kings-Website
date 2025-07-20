@@ -10,7 +10,7 @@ const AboutUs = () => {
     { 
       icon: Trophy, 
       label: "Tournaments Played", 
-      value: "15+", 
+      value: "5+", 
       color: "text-brand-orange",
       bgImage: "/assets/stats1.png"
     },
@@ -24,7 +24,7 @@ const AboutUs = () => {
     { 
       icon: Calendar, 
       label: "Active Players", 
-      value: "20+", 
+      value: "15+", 
       color: "text-brand-orange",
       bgImage: "/assets/stats3.png"
     },
@@ -44,7 +44,8 @@ const AboutUs = () => {
           <div className="space-y-4 sm:space-y-6">
             <h3 className="text-3xl sm:text-4xl font-bold text-[#1c0f0d]">ABOUT US</h3>
             <p className="text-brand-text text-base sm:text-xl leading-relaxed">
-              Ayodhya Super Kings is not just a team — it's a brotherhood of passionate volleyball players united by the spirit of the game. Based in the historic city of Ayodhya, we compete with heart, grit, and a commitment to excellence both on and off the court. Every serve, spike, and victory reflects our dedication to the sport and our fans.
+            Ayodhya Super Kings, a professional volleyball franchise representing the sacred city of Ayodhya in the Uttar Pradesh Pro Volleyball League (UPPVL). Established in 2025, the team embodies the spirit of courage, tradition, and competitive excellence. With roots in one of India’s most culturally significant cities, Ayodhya Super Kings stands as a symbol of legacy and pride, bringing together a talented squad to electrify the volleyball courts.
+
             </p>
             <button onClick={() => router.push("/about")} className="bg-[#fab604] rounded-md text-[#1c0f0d] font-semibold px-5 py-1.5 sm:px-6 sm:py-2 transition-all duration-300 hover:scale-105">
               Read More

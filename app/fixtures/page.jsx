@@ -116,11 +116,12 @@ export default function Fixtures() {
               <span>Home / </span>
               <span>fixtures</span>
             </nav>
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold">Matches Shedule</h1>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold">
+              Matches Shedule
+            </h1>
           </div>
         </div>
       </section>
-
 
       {/* Fixtures Schedule Section */}
       <section className="py-8 sm:py-12 md:py-16 lg:py-20 px-4 sm:px-6 lg:px-8">
@@ -137,17 +138,16 @@ export default function Fixtures() {
                 )}
                 <div>
                   {fixture.featured ? (
-                    // Featured Match Layout
-                    <div className="flex flex-col items-center text-center space-y-6 sm:space-y-8 pt-4">
-                      {/* Teams with Logos */}
-                      <div className="flex flex-col sm:flex-row items-center justify-center w-full max-w-4xl gap-4 sm:gap-8">
+                    // ✅ Updated Responsive Featured Match Layout
+                    <div className="flex flex-col items-center text-center space-y-4 sm:space-y-6 pt-4 px-2 sm:px-0">
+                      {/* Teams Row */}
+                      <div className="flex flex-row items-center justify-center w-full max-w-xs sm:max-w-4xl">
                         {/* Team 1 */}
-                        <div className="flex flex-col sm:flex-row items-center gap-4">
-                          
-                          <span className="text-lg sm:text-xl md:text-2xl font-bold text-[#1c0f0d]">
-                            Lucknow <br /> Tigers
+                        <div className="flex flex-col-reverse md:flex-row items-center gap-0 md:gap-2 w-1/3 justify-end">
+                          <span className="text-lg sm:text-lg md:text-xl font-bold text-[#1c0f0d] text-right">
+                            {fixture.team1.name}
                           </span>
-                          <div className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 rounded-full flex items-center justify-center p-2">
+                          <div className="w-24 h-24 sm:w-24 sm:h-24 md:w-28 md:h-28 rounded-full flex items-center justify-center p-1">
                             <img
                               src={fixture.team1.logo}
                               alt={fixture.team1.name}
@@ -157,37 +157,38 @@ export default function Fixtures() {
                         </div>
 
                         {/* VS */}
-                        <div className="my-2 sm:my-0">
-                          <span className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#1c0f0d]">
-                            VS
-                          </span>
+                        <div className="text-4xl font-bold text-[#1c0f0d] px-6 text-center">
+                          VS
                         </div>
 
                         {/* Team 2 */}
-                        <div className="flex flex-col sm:flex-row items-center gap-4">
-                          <div className="w-20 h-20 sm:w-24 sm:h-24 md:w-26 md:h-26  rounded-full flex items-center justify-center p-2">
+                        <div className="flex flex-col md:flex-row items-center gap-0 md:gap-2 w-1/3 justify-start">
+                          <div className="w-24 h-24 sm:w-24 sm:h-24 md:w-28 md:h-28 rounded-full flex items-center justify-center p-1">
                             <img
                               src={fixture.team2.logo}
                               alt={fixture.team2.name}
                               className="w-full h-full object-contain"
                             />
                           </div>
-                          <span className="text-lg sm:text-xl md:text-2xl font-bold text-[#1c0f0d]">
-                            Ayodhya <br />Super Kings
+                          <span className="text-xs sm:text-lg md:text-xl font-bold text-[#1c0f0d] text-left">
+                            {fixture.team2.name}
                           </span>
                         </div>
                       </div>
-                      <div className="text-[#fab604] bg-[#1c0f0d] px-3 py-2 text-md rounded-lg font-medium">
-                        July 17, 2025
-                      </div>
-                      {/* Stadium */}
-                      <div className="text-[#1c0f0d] text-base sm:text-lg md:text-xl font-medium">
-                        {fixture.stadium}
+
+                      {/* Match Info Row */}
+                      <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4">
+                        <div className="text-[#fab604] bg-[#1c0f0d] px-4 py-2 text-xs sm:text-base rounded-lg font-medium">
+                          {fixture.date}
+                        </div>
+                        <div className="text-[#1c0f0d] text-xs sm:text-base md:text-lg font-medium">
+                          {fixture.stadium}
+                        </div>
                       </div>
 
                       {/* Yellow Divider */}
                       <div className="w-full h-8 bg-[#fcda20] flex items-center justify-center">
-                        <span className="text-sm sm:text-base md:text-lg font-semibold text-[#1c0f0d]">
+                        <span className="text-xs sm:text-sm md:text-base font-semibold text-[#1c0f0d]">
                           Teams | Dates
                         </span>
                       </div>
@@ -199,7 +200,6 @@ export default function Fixtures() {
                       <div className="flex items-center justify-center sm:justify-start w-full sm:w-auto gap-4">
                         {/* Team 1 */}
                         <div className="flex items-center gap-3">
-                          
                           <span className="text-sm sm:text-base font-bold text-[#1c0f0d]">
                             {fixture.team1.name}
                           </span>

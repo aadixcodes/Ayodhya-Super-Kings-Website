@@ -17,8 +17,8 @@ const HeroBanner = () => {
       title: "Ayodhya Super Kings",
       subtitle: "Rise. Serve. Conquer.",
       description: "Welcome to the official home of Ayodhya Super Kings – the leading volleyball team that embodies passion, teamwork, and an unwavering desire to win.",
-      buttonText: "Join The Squad",
-      navLink: "/contact"
+      buttonText: "Know More",
+      navLink: "/about"
     },
     {
       id: 2,
@@ -49,7 +49,7 @@ const HeroBanner = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % slides.length);
-    }, 4000);
+    }, 6000);
     return () => clearInterval(interval);
   }, [slides.length]);
 
@@ -62,7 +62,7 @@ const HeroBanner = () => {
   };
 
   return (
-    <div className="relative w-full overflow-hidden">
+    <div className="relative w-full overflow-hidden pt-0 md:pt-20">
       {/* Mobile Carousel (Stacked) */}
       <div className="md:hidden">
         <div className="relative h-[60vh] w-full">
@@ -83,9 +83,9 @@ const HeroBanner = () => {
                   sizes="(max-width: 768px) 100vw, 80vw"
                 />
                 <div className="absolute inset-0 flex flex-col justify-end items-center text-center text-white p-6 bg-gradient-to-t from-black/60 via-black/30 to-transparent">
-                  <div className="w-full max-w-md space-y-3">
+                  <div className="w-full max-w-md space-y-1">
                     <h1 className="text-2xl font-bold text-brand-gold">{slide.title}</h1>
-                    <h2 className="text-lg font-semibold">{slide.subtitle}</h2>
+                    <h2 className="text-lg font-semibold -mt-2">{slide.subtitle}</h2>
                     <p className="text-sm leading-relaxed">{slide.description}</p>
                     <Button
                       size="sm"
@@ -174,7 +174,7 @@ const HeroBanner = () => {
                     sizes="(max-width: 1024px) 50vw, 60vw"
                   />
                   <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-white p-8 bg-gradient-to-t from-black/50 via-black/20 to-transparent">
-                    <div className="space-y-4 lg:space-y-6">
+                    <div className="space-y-2 lg:space-y-2">
                       <h1 className="text-3xl lg:text-5xl font-bold text-brand-gold">{slide.title}</h1>
                       <h2 className="text-xl lg:text-3xl font-semibold">{slide.subtitle}</h2>
                       <p className="text-base lg:text-lg max-w-md lg:max-w-xl mx-auto leading-relaxed">

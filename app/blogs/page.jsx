@@ -9,34 +9,30 @@ export default function Blogs() {
   const blogPosts = [
     {
       id: 1,
-      title: "Ayodhya Super Kings Kick Off Season with a Thrilling Win",
-      description:
-        "Ayodhya Super Kings started their campaign with an electrifying win against Lucknow Titans. A detailed recap of the intense match and standout performances.",
-      date: "July 10, 2025",
+      title: "The Rise of Ayodhya Super Kings",
+      description: "How Ayodhya's new volleyball franchise is making waves in the UPPVL with strategic picks and regional pride.",
+      date: "June 15, 2025",
       image: "/assets/homegallery4.png"
     },
     {
       id: 2,
-      title: "Meet the Stars: Key Players of Ayodhya Super Kings 2025",
-      description:
-        "Get to know the top performers and rising talents in the Ayodhya Super Kings squad. Player bios, stats, and what makes them special.",
-      date: "July 12, 2025",
+      title: "Why Volleyball is the Next Big Thing in Indian Sports",
+      description: "Exploring volleyball's growing popularity in India and why leagues like UPPVL are changing the game.",
+      date: "June 18, 2025",
       image: "/assets/homegallery4.png"
     },
     {
       id: 3,
-      title: "Behind the Scenes: Training Day with Ayodhya Super Kings",
-      description:
-        "Step into a full day of practice with the Super Kings as they prepare physically and mentally for the upcoming matches.",
-      date: "July 13, 2025",
+      title: "Understanding Volleyball Player Roles",
+      description: "A beginner's guide to volleyball positions featuring Ayodhya Super Kings' star players.",
+      date: "June 22, 2025",
       image: "/assets/homegallery4.png"
     },
     {
       id: 4,
-      title: "Fan Diaries: Support for Ayodhya Super Kings Grows Across UP",
-      description:
-        "Explore the fan movement building around Ayodhya Super Kings — from stadium chants to fan art and social media trends.",
-      date: "July 15, 2025",
+      title: "Why Fans Are the Real Kings of the Game",
+      description: "How Ayodhya Super Kings is building a passionate fan community that fuels the team's spirit.",
+      date: "June 25, 2025",
       image: "/assets/homegallery4.png"
     }
   ];

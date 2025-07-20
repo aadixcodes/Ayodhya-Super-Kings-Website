@@ -14,8 +14,8 @@ const Footer = () => {
 
   return (
     <footer
-      className="mt-20 py-12 relative overflow-hidden bg-center bg-no-repeat bg-cover"
-      style={{ backgroundImage: "url('/assets/bgbanner.png')" }}
+      className="mt-20 bg-[#FCDA20] py-12 relative overflow-hidden bg-center bg-no-repeat bg-cover"
+      // style={{ backgroundImage: "url('/assets/bgbanner.png')" }}
     >
       {/* Background Pattern (optional, can be layered above or below) */}
       <div className="absolute inset-0 opacity-10">

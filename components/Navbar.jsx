@@ -43,7 +43,7 @@ const Navigation = () => {
   }, []);
 
   return (
-    <header className={`fixed w-full z-50 transition-all duration-300`}>
+    <header className={`fixed w-full  z-50 transition-all duration-300`}>
       {/* Main Navbar Container */}
       <div className={`max-w-7xl lg:mx-auto mx-[1rem] md:mx-0  bg-[#ff9602] ${isMenuOpen ? 'rounded-none' : 'rounded-full'} ${isMenuOpen ? 'mt-0' : 'mt-2 lg:mt-3'} px-0 lg:px-0 relative`}>
         <div className="flex justify-between items-center h-16 lg:h-18">
@@ -124,15 +124,6 @@ const Navigation = () => {
         <div className={`lg:hidden fixed inset-0 bg-[#ff9600] z-40 transition-all duration-300 ease-in-out ${isMenuOpen ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-full pointer-events-none'}`}>
           {/* Close Button inside Mobile Menu */}
           <div className="absolute right-4 top-4 z-50">
-            {/* <Button
-              variant="ghost"
-              size="sm"
-              className="text-white hover:bg-white/20 p-3 rounded-full"
-              onClick={() => setIsMenuOpen(false)}
-              aria-label="Close menu"
-            >
-              <X size={24} />
-            </Button> */}
           </div>
 
           <div className="container mx-auto px-4 flex flex-col items-center justify-center h-full space-y-4 pt-16">
