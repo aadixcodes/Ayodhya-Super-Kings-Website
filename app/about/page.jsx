@@ -9,10 +9,10 @@ const About = () => {
   const router = useRouter();
 
   const stats = [
-    { value: "20+", label: "Matches", label2: "Played" },
+    { value: "5+", label: "Matches", label2: "Played" },
     { value: "10+", label: "Trophies", label2: "Won" },
     { value: "3+", label: "Year of", label2: "Legacy" },
-    { value: "25+", label: "Team", label2: "Members" },
+    { value: "15+", label: "Active", label2: "Players" },
   ];
 
   const timelineItems = [

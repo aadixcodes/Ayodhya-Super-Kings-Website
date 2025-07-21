@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Facebook, Instagram, Twitter, MessageCircle } from "lucide-react";
+import { Facebook, Instagram, Twitter, MessageCircle, Mail  } from "lucide-react";
 
 const Footer = () => {
   const quickLinks = [
@@ -58,32 +58,32 @@ const Footer = () => {
               <h4 className="text-brand-text font-bold text-lg text-center">Social Media</h4>
               <div className="space-y-3">
                 <a
-                  href="#"
+                  href="https://www.instagram.com/ayodhyasuperkings/"
                   className="flex items-center justify-center space-x-3 text-brand-text hover:text-brand-orange transition-colors duration-300"
                 >
                   <Instagram size={20} />
                   <span className="text-md font-medium">Instagram</span>
                 </a>
                 <a
-                  href="#"
+                  href="https://www.facebook.com/people/Ayodhya-Superkings/61575231071878/"
                   className="flex items-center justify-center space-x-3 text-brand-text hover:text-brand-orange transition-colors duration-300"
                 >
                   <Facebook size={20} />
                   <span className="text-md font-medium">Facebook</span>
                 </a>
                 <a
-                  href="#"
+                  href="https://x.com/ASuperkings/"
                   className="flex items-center justify-center space-x-3 text-brand-text hover:text-brand-orange transition-colors duration-300"
                 >
                   <Twitter size={20} />
                   <span className="text-md font-medium">Twitter</span>
                 </a>
                 <a
-                  href="#"
+                  href="mailto:ayodhya.super.kings@uppvl.com"
                   className="flex items-center justify-center space-x-3 text-brand-text hover:text-brand-orange transition-colors duration-300"
                 >
-                  <MessageCircle size={20} />
-                  <span className="text-md font-medium">Whatsapp</span>
+                  <Mail size={20} />
+                  <span className="text-md font-medium">Email</span>
                 </a>
               </div>
             </div>
@@ -111,32 +111,32 @@ const Footer = () => {
             <h4 className="text-brand-text font-bold text-lg">Social Media</h4>
             <div className="space-y-3">
               <a
-                href="#"
+                href="https://www.instagram.com/ayodhyasuperkings/"
                 className="flex items-center space-x-3 text-brand-text hover:text-brand-orange transition-colors duration-300"
               >
                 <Instagram size={20} />
                 <span className="text-md font-medium">Instagram</span>
               </a>
               <a
-                href="#"
+                href="https://www.facebook.com/people/Ayodhya-Superkings/61575231071878/"
                 className="flex items-center space-x-3 text-brand-text hover:text-brand-orange transition-colors duration-300"
               >
                 <Facebook size={20} />
                 <span className="text-md font-medium">Facebook</span>
               </a>
               <a
-                href="#"
+                href="https://x.com/ASuperkings/"
                 className="flex items-center space-x-3 text-brand-text hover:text-brand-orange transition-colors duration-300"
               >
                 <Twitter size={20} />
                 <span className="text-md font-medium">Twitter</span>
               </a>
               <a
-                href="#"
+                href="mailto:ayodhya.super.kings@uppvl.com"
                 className="flex items-center space-x-3 text-brand-text hover:text-brand-orange transition-colors duration-300"
               >
-                <MessageCircle size={20} />
-                <span className="text-md font-medium">Whatsapp</span>
+                <Mail size={20} />
+                <span className="text-md font-medium">Email</span>
               </a>
             </div>
           </div>
@@ -145,7 +145,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="mt-8 pt-8 border-t border-black text-center">
           <p className="text-brand-text text-md">
-            © Copyright 2022 Ayodhya Super Kings. All Rights Reserved.
+            © Copyright 2025 Ayodhya Super Kings. All Rights Reserved.
           </p>
         </div>
       </div>

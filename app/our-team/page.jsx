@@ -11,11 +11,21 @@ export default function OurTeam() {
     '/assets/3.png',
     '/assets/4.png',
     '/assets/5.png',
+    '/assets/6.png',
+    '/assets/7.png',
+    '/assets/8.png',
+    '/assets/9.png',
+    '/assets/10.png',
+    '/assets/11.png',
+    '/assets/12.png',
+    '/assets/13.png',
+    '/assets/14.png',
+    '/assets/15.png',
   ];
 
   const staffImages = [
-    '/assets/pratibha2.png',
-    '/assets/amritpal.png',
+    '/assets/amritpalsingh.png',
+    '/assets/vijaytomar.png',
   ];
 
   const currentImages = activeTab === 'team' ? teamImages : staffImages;
@@ -55,7 +65,7 @@ export default function OurTeam() {
                     : 'bg-white border border-[#1c0f0d] text-[#1c0f0d]'
                 }`}
               >
-                {tab === 'team' ? 'Team' : 'Staff'}
+                {tab === 'team' ? 'Players Squad' : 'Management'}
               </button>
             ))}
           </div>

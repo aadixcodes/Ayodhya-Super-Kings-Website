@@ -84,21 +84,21 @@ const Navigation = () => {
           {/* Social Icons */}
           <div className="hidden lg:flex items-center space-x-2 px-4 py-2">
             <a
-              href="#"
+              href="https://www.facebook.com/people/Ayodhya-Superkings/61575231071878/"
               className="text-white hover:text-white transition-colors duration-300 p-2 rounded-full hover:bg-white/20"
               aria-label="Facebook"
             >
               <Facebook size={20} />
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/ayodhyasuperkings/"
               className="text-white hover:text-white transition-colors duration-300 p-2 rounded-full hover:bg-white/20"
               aria-label="Instagram"
             >
               <Instagram size={20} />
             </a>
             <a
-              href="#"
+              href="https://x.com/ASuperkings/"
               className="text-white hover:text-white transition-colors duration-300 p-2 rounded-full hover:bg-white/20"
               aria-label="Twitter"
             >
@@ -145,21 +145,21 @@ const Navigation = () => {
             {/* Mobile Social Icons */}
             <div className="flex items-center space-x-6 pt-8 mt-8 border-t border-white/30 w-full justify-center">
               <a
-                href="#"
+                href="https://www.facebook.com/people/Ayodhya-Superkings/61575231071878/"
                 className="text-white hover:text-white transition-colors duration-300 p-3 rounded-full hover:bg-white/20"
                 aria-label="Facebook"
               >
                 <Facebook size={24} />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/ayodhyasuperkings/"
                 className="text-white hover:text-white transition-colors duration-300 p-3 rounded-full hover:bg-white/20"
                 aria-label="Instagram"
               >
                 <Instagram size={24} />
               </a>
               <a
-                href="#"
+                href="https://x.com/ASuperkings/"
                 className="text-white hover:text-white transition-colors duration-300 p-3 rounded-full hover:bg-white/20"
                 aria-label="Twitter"
               >

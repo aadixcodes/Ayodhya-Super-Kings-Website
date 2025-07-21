@@ -64,10 +64,10 @@ export default function ContactPage() {
               <div className="bg-[#fab604] w-12 h-12 md:w-16 md:h-16 rounded-xl flex items-center justify-center mx-auto mb-3 md:mb-4">
                 <Phone className="w-6 h-6 md:w-8 md:h-8 text-[#1c0f0d]" />
               </div>
-              <h4 className="text-md md:text-xl font-bold text-[#1c0f0d] mb-1 md:mb-2">+9195263XXXXX</h4>
+              <h4 className="text-md md:text-xl font-bold text-[#1c0f0d] mb-1 md:mb-2">+91-99995 32227</h4>
               <p className="text-[#1c0f0d] text-xs md:text-sm">
                 Call us for match<br />
-                inquiries.
+                enquiries.
               </p>
             </div>
 
@@ -75,7 +75,7 @@ export default function ContactPage() {
               <div className="bg-[#fab604] w-12 h-12 md:w-16 md:h-16 rounded-xl flex items-center justify-center mx-auto mb-3 md:mb-4">
                 <Mail className="w-6 h-6 md:w-8 md:h-8 text-[#1c0f0d]" />
               </div>
-              <h4 className="text-md md:text-xl font-bold text-[#1c0f0d] mb-1 md:mb-2">mail@team.in</h4>
+              <h4 className="text-md md:text-xl font-bold text-[#1c0f0d] mb-1 md:mb-2">ayodhya.super.kings@uppvl.com</h4>
               <p className="text-[#1c0f0d] text-xs md:text-sm">
                 Send your queries<br />
                 by email.

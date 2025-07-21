@@ -1,5 +1,3 @@
-
-
 import { ChevronLeft, ChevronRight, Trophy, Users, Calendar, Medal } from "lucide-react";
 import { useRouter } from "next/navigation";
 
