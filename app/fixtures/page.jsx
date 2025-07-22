@@ -22,11 +22,11 @@ export default function Fixtures() {
         logo: "/assets/lucknowlogo.png",
       },
       team2: {
-        name: "Team B",
+        name: "Ayodhya Super Kings",
         logo: "/assets/logo.png",
       },
       date: "July 14, 2025",
-      stadium: "Ramayana Sports Complex",
+      stadium: "Shaheed Vijay Singh Pathak Sports Complex Indoor Stadium",
       featured: true,
     },
     {
@@ -144,7 +144,7 @@ export default function Fixtures() {
                       <div className="flex flex-row items-center justify-center w-full max-w-xs sm:max-w-4xl">
                         {/* Team 1 */}
                         <div className="flex flex-col-reverse md:flex-row items-center gap-0 md:gap-2 w-1/3 justify-end">
-                          <span className="text-lg sm:text-lg md:text-xl font-bold text-[#1c0f0d] text-right">
+                          <span className="text-lg sm:text-lg md:text-xl font-bold text-[#1c0f0d] text-center">
                             {fixture.team1.name}
                           </span>
                           <div className="w-24 h-24 sm:w-24 sm:h-24 md:w-28 md:h-28 rounded-full flex items-center justify-center p-1">
@@ -170,7 +170,7 @@ export default function Fixtures() {
                               className="w-full h-full object-contain"
                             />
                           </div>
-                          <span className="text-xs sm:text-lg md:text-xl font-bold text-[#1c0f0d] text-left">
+                          <span className="text-lg sm:text-lg md:text-xl font-bold text-[#1c0f0d] text-center">
                             {fixture.team2.name}
                           </span>
                         </div>
