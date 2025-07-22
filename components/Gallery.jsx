@@ -8,13 +8,13 @@ const Gallery = () => {
   return (
     <section className="relative py-16 overflow-hidden">
       {/* Background Banner Image */}
-      <div className="absolute inset-0 -z-10">
-        <Image
+      <div className="absolute inset-0 -z-10 bg-[#ff9602]">
+        {/* <Image
           src="/assets/bgbanner.png"
           alt="Gallery Background"
           layout="fill"
           objectFit="cover"
-        />
+        /> */}
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
