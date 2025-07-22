@@ -15,7 +15,7 @@ const Footer = () => {
   return (
     <footer
       className="mt-20 bg-[#FCDA20] py-12 relative overflow-hidden bg-center bg-no-repeat bg-cover"
-      // style={{ backgroundImage: "url('/assets/bgbanner.png')" }}
+      style={{ backgroundImage: "url('/assets/bgbanner.png')" }}
     >
       {/* Background Pattern (optional, can be layered above or below) */}
       <div className="absolute inset-0 opacity-10">
@@ -108,8 +108,8 @@ const Footer = () => {
 
           {/* Desktop: Original layout for Social Media */}
           <div className="hidden md:block space-y-4 flex flex-col items-center">
-            <h4 className="text-brand-text font-bold text-lg">Social Media</h4>
-            <div className="space-y-3">
+            <h4 className="text-brand-text font-bold text-lg text-center">Social Media</h4>
+            <div className="space-y-3 flex flex-col items-center">
               <a
                 href="https://www.instagram.com/ayodhyasuperkings/"
                 className="flex items-center space-x-3 text-brand-text hover:text-brand-orange transition-colors duration-300"

@@ -132,13 +132,20 @@ html {
   animation: shimmer 1.5s infinite;
 }
 
-.stroke-only {
-  -webkit-text-stroke: 2px #fab604;
+/* For desktop stroke effect */
+.stroke-visible {
+  -webkit-text-stroke: 3px #fab604;
+  color: white; /* or your background color */
   font-family: 'Poppins', sans-serif;
-  /* font-weight: 900; */
-  /* text-stroke: 2px #fab604; */
-  color: transparent;
-  /* display: inline-block; */
+  display: inline-block;
+  text-shadow: none;
+}
+
+/* Make stroke thicker on larger screens */
+@media (min-width: 1024px) {
+  .stroke-visible {
+    -webkit-text-stroke: 4px #fab604;
+  }
 }
 
 

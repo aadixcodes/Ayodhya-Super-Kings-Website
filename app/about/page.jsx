@@ -10,8 +10,8 @@ const About = () => {
 
   const stats = [
     { value: "5+", label: "Matches", label2: "Played" },
-    { value: "10+", label: "Trophies", label2: "Won" },
-    { value: "3+", label: "Year of", label2: "Legacy" },
+    { value: "1st", label: "Season in", label2: "League" },
+    { value: "5+", label: "Coaching", label2: "Staff" },
     { value: "15+", label: "Active", label2: "Players" },
   ];
 

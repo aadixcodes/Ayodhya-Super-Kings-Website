@@ -14,8 +14,8 @@ const AboutUs = () => {
     },
     { 
       icon: Medal, 
-      label: "Championship Wins", 
-      value: "10+", 
+      label: "Season In League", 
+      value: "1st", 
       color: "text-brand-gold",
       bgImage: "/assets/stats2.png"
     },
@@ -28,8 +28,8 @@ const AboutUs = () => {
     },
     { 
       icon: Users, 
-      label: "Years of Legacy", 
-      value: "3+", 
+      label: "Year of Formation", 
+      value: "2025", 
       color: "text-brand-gold",
       bgImage: "/assets/stats4.png"
     },
