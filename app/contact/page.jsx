@@ -361,10 +361,10 @@ export default function ContactPage() {
                 <Phone className="w-6 h-6 md:w-8 md:h-8 text-[#1c0f0d]" />
               </div>
               <h4 className="text-md md:text-xl font-bold text-[#1c0f0d] mb-1 md:mb-2">+91-99995 32227</h4>
-              <p className="text-[#1c0f0d] text-xs md:text-sm">
+              {/* <p className="text-[#1c0f0d] text-xs md:text-sm">
                 Call us for match<br />
                 enquiries.
-              </p>
+              </p> */}
             </div>
 
             <div className="text-center border-b-2 sm:border-b-0 md:border-r-2 border-[#fab604] p-4">
@@ -372,21 +372,21 @@ export default function ContactPage() {
                 <Mail className="w-6 h-6 md:w-8 md:h-8 text-[#1c0f0d]" />
               </div>
               <h4 className="text-md md:text-xl font-bold text-[#1c0f0d] mb-1 md:mb-2 break-all px-2">ayodhya.super.kings@uppvl.com</h4>
-              <p className="text-[#1c0f0d] text-xs md:text-sm">
+              {/* <p className="text-[#1c0f0d] text-xs md:text-sm">
                 Send your queries<br />
                 by email.
-              </p>
+              </p> */}
             </div>
 
             <div className="text-center p-4">
               <div className="bg-[#fab604] w-12 h-12 md:w-16 md:h-16 rounded-xl flex items-center justify-center mx-auto mb-3 md:mb-4">
                 <MapPin className="w-6 h-6 md:w-8 md:h-8 text-[#1c0f0d]" />
               </div>
-              <h4 className="text-md md:text-xl font-bold text-[#1c0f0d] mb-1 md:mb-2">Ayodhya, U.P, India</h4>
-              <p className="text-[#1c0f0d] text-xs md:text-sm">
+              <h4 className="text-md md:text-xl font-bold text-[#1c0f0d] mb-1 md:mb-2">G-48, First Floor, Jungpura Extension, Near Eros Cinema, New Delhi-110014</h4>
+              {/* <p className="text-[#1c0f0d] text-xs md:text-sm">
                 Find us in<br />
                 Ayodhya city.
-              </p>
+              </p> */}
             </div>
           </div>
         </div>

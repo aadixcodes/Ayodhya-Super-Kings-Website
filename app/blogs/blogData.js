@@ -59,7 +59,7 @@ export const blogPosts = [
       title: "Why Volleyball is the Next Big Thing in Indian Sports",
       description: "Exploring volleyball's growing popularity in India and why leagues like UPPVL are changing the game.",
       date: "July 21, 2025",
-      image: "https://i.pinimg.com/736x/ea/42/13/ea42137f7d59fc0f805ab8a2d0ccc314.jpg",
+      image: "/assets/blog2.jpg",
       author: "Sports Analyst",
       readTime: "5 min read",
       content: [
@@ -117,7 +117,7 @@ export const blogPosts = [
       title: "Setter, Spiker, Libero — Understanding Volleyball Player Roles",
       description: "A beginner's guide to volleyball positions featuring Ayodhya Super Kings' star players.",
       date: "July 21, 2025",
-      image: "https://i.pinimg.com/1200x/e0/b3/99/e0b399e64f9f4f0d225d678f4a981a52.jpg",
+      image: "/assets/blog3.jpg",
       author: "Volleyball Coach",
       readTime: "6 min read",
       content: [
