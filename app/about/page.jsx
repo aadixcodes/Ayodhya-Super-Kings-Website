@@ -498,7 +498,7 @@ const About = () => {
               ) : (
                 <div className="relative h-[25rem]">
                   <Image
-                    src="/assets/pratibhanew.jpg"
+                    src="/assets/pratibhanew.JPG"
                     alt="Pratibha Tiwari"
                     fill
                     className="object-cover object-top"
@@ -525,7 +525,7 @@ const About = () => {
               ) : (
                 <div className="relative h-[25rem]">
                   <Image
-                    src="/assets/amritpal2.jpg"
+                    src="/assets/amritpal2.JPG"
                     alt="Amrit Pal Singh"
                     fill
                     className="object-cover object-top"
@@ -551,7 +551,7 @@ const About = () => {
               ) : (
                 <div className="relative h-[25rem]">
                   <Image
-                    src="/assets/vijaytomar2.jpg"
+                    src="/assets/vijaytomar2.JPG"
                     alt="Vijay Tomar"
                     fill
                     className="object-cover object-top"
@@ -583,7 +583,7 @@ const About = () => {
               ) : (
                 <div className="relative h-80 sm:h-96 md:h-[500px] w-full rounded-xl overflow-hidden shadow-lg">
                   <Image
-                    src="/assets/amitgulia.jpg"
+                    src="/assets/amitgulia.JPG"
                     alt="Amit Gulia"
                     fill
                     className="object-cover object-top"
