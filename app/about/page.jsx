@@ -643,7 +643,7 @@ const About = () => {
                 ) : (
                   <div className="relative h-96 lg:h-full">
                     <Image
-                      src="/assets/pratibhanew.jpg"
+                      src="/assets/pratibhanew.JPG"
                       alt="Pratibha Tiwari"
                       fill
                       className="object-cover object-top"
