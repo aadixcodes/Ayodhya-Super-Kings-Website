@@ -62,7 +62,7 @@ export default function OurTeam() {
               <span>Home / </span>
               <span>Our Team</span>
             </nav>
-            <h1 className="text-5xl sm:text-6xl md:text-7xl font-koba text-[#1c0f0d]">Our Team</h1>
+            <h1 className="text-5xl sm:text-6xl md:text-7xl font-koba opacity-95 text-[#1c0f0d]">Our Team</h1>
           </div>
         </div>
       </section>

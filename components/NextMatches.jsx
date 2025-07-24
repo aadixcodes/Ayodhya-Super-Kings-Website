@@ -96,7 +96,7 @@ const MatchesSection = () => {
   return (
     <section className="py-16 bg-[#f8f8f8]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-4xl md:text-6xl font-koba text-[#1c0f0d] mb-12 text-center">
+        <h2 className="text-4xl md:text-6xl font-koba text-[#1c0f0d] mb-12 text-center opacity-95">
           OUR NEXT MATCHES
         </h2>
 
@@ -106,7 +106,7 @@ const MatchesSection = () => {
             modules={[Navigation, Autoplay]}
             loop={true}
             loopedSlides={matches.length}
-            slidesPerView={2.5}
+            slidesPerView={3}
             centeredSlides={true}
             spaceBetween={20}
             speed={600}
@@ -120,7 +120,7 @@ const MatchesSection = () => {
                 slidesPerView: 1.5,
               },
               1024: {
-                slidesPerView: 2.5,
+                slidesPerView: 3,
               },
             }}
             onSwiper={(swiper) => {

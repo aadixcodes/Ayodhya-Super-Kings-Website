@@ -116,7 +116,7 @@ export default function Fixtures() {
               <span>Home / </span>
               <span>fixtures</span>
             </nav>
-            <h1 className="text-5xl sm:text-6xl md:text-7xl font-koba text-[#1c0f0d]">
+            <h1 className="text-5xl sm:text-6xl md:text-7xl font-koba opacity-95 text-[#1c0f0d]">
               Matches Shedule
             </h1>
           </div>
@@ -178,7 +178,7 @@ export default function Fixtures() {
 
                       {/* Match Info Row */}
                       <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4">
-                        <div className="text-[#fab604] bg-[#1c0f0d] px-4 py-2 text-xs sm:text-base rounded-lg font-medium">
+                        <div className="text-white bg-[#1c0f0d] px-4 py-2 text-xs sm:text-base rounded-lg font-medium">
                           {fixture.date}
                         </div>
                         <div className="text-[#1c0f0d] text-xs sm:text-base md:text-lg font-medium">
@@ -234,7 +234,7 @@ export default function Fixtures() {
 
                       {/* Right Side - Date & Stadium */}
                       <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-4 w-full sm:w-auto">
-                        <div className="bg-[#1c0f0d] text-[#fab604] px-3 sm:px-4 py-1 sm:py-2 rounded text-xs sm:text-sm font-semibold whitespace-nowrap">
+                        <div className="bg-[#1c0f0d] text-white px-3 sm:px-4 py-1 sm:py-2 rounded text-xs sm:text-sm font-semibold whitespace-nowrap">
                           {fixture.date}
                         </div>
                         <div className="text-[#1c0f0d] text-xs sm:text-sm font-medium text-center sm:text-left">

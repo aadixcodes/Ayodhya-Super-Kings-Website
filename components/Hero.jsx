@@ -13,7 +13,7 @@
 //   const slides = [
 //     {
 //       id: 1,
-//       image: "/assets/banner-1.jpg",
+//       image: "/assets/banner-11.png",
 //       title: "Ayodhya Super Kings",
 //       subtitle: "Rise. Serve. Conquer.",
 //       description: "Welcome to the official home of Ayodhya Super Kings – the leading volleyball team that embodies passion, teamwork, and an unwavering desire to win.",
@@ -28,15 +28,6 @@
 //       description: "Experience the thrill of competitive volleyball with a team that never gives up. Every serve, every spike, every victory reflects our commitment to excellence.",
 //       buttonText: "View Team",
 //       navLink: "/our-team"
-//     },
-//     {
-//       id: 3,
-//       image: "/assets/banner-3.jpg",
-//       title: "Home Court Advantage",
-//       subtitle: "Where Legends Are Made.",
-//       description: "Step into our arena where every match is a battle, every point matters, and every fan becomes part of our winning legacy.",
-//       buttonText: "Match Schedule",
-//       navLink: "/fixtures"
 //     },
 //   ];
 
@@ -61,8 +52,8 @@
 //   };
 
 //   return (
-//     <div className="relative w-full h-screen overflow-hidden">
-//       {/* Mobile Carousel (Full Screen) */}
+//     <div className="relative w-full h-[110vh] overflow-hidden">
+//       {/* Mobile Carousel (Responsive) */}
 //       <div className="md:hidden h-full">
 //         <div className="relative h-full w-full">
 //           {slides.map((slide, index) => (
@@ -120,7 +111,7 @@
 //         </div>
 //       </div>
 
-//       {/* Desktop Carousel (Full Screen) */}
+//       {/* Desktop Carousel */}
 //       <div className="hidden md:block relative h-full w-full">
 //         <div className="relative h-full w-full">
 //           {slides.map((slide, index) => (
@@ -182,6 +173,7 @@
 
 // export default HeroBanner;
 
+
 "use client";
 
 import { useState, useEffect } from "react";
@@ -213,15 +205,6 @@ const HeroBanner = () => {
       buttonText: "View Team",
       navLink: "/our-team"
     },
-    {
-      id: 3,
-      image: "/assets/banner-3.jpg",
-      title: "Home Court Advantage",
-      subtitle: "Where Legends Are Made.",
-      description: "Step into our arena where every match is a battle, every point matters, and every fan becomes part of our winning legacy.",
-      buttonText: "Match Schedule",
-      navLink: "/fixtures"
-    },
   ];
 
   const handleButtonClick = (navLink) => {
@@ -245,9 +228,9 @@ const HeroBanner = () => {
   };
 
   return (
-    <div className="relative w-full h-[60vh] md:h-screen overflow-hidden">
+    <div className="relative w-full mt-16 h-[25vh] md:h-[110vh] overflow-hidden">
       {/* Mobile Carousel (Responsive) */}
-      <div className="md:hidden h-full">
+      <div className="md:hidden h-full landscape:h-[70vh] landscape:max-h-[400px]">
         <div className="relative h-full w-full">
           {slides.map((slide, index) => (
             <div
@@ -261,30 +244,17 @@ const HeroBanner = () => {
                   src={slide.image}
                   alt={`Slide ${slide.id}`}
                   fill
-                  className="object-cover object-center"
+                  className="object-cover object-center portrait:object-cover landscape:object-contain"
                   priority={index === currentSlide}
                   quality={100}
                 />
-                {/* <div className="absolute inset-0 bg-black/30 flex items-center justify-center p-4 text-center">
-                  <div className="text-white max-w-md">
-                    <h1 className="text-2xl font-bold mb-2">{slide.title}</h1>
-                    <h2 className="text-xl mb-4">{slide.subtitle}</h2>
-                    <p className="text-sm mb-6">{slide.description}</p>
-                    <Button
-                      className="bg-yellow-500 hover:bg-yellow-600 text-black"
-                      onClick={() => handleButtonClick(slide.navLink)}
-                    >
-                      {slide.buttonText}
-                    </Button>
-                  </div>
-                </div> */}
               </div>
             </div>
           ))}
         </div>
         
         {/* Mobile Navigation */}
-        <div className="absolute bottom-8 left-0 right-0 flex justify-center items-center px-4">
+        <div className="absolute bottom-8 left-0 right-0 flex justify-center items-center px-4 landscape:bottom-4">
           <Button
             variant="ghost"
             size="sm"
@@ -317,7 +287,7 @@ const HeroBanner = () => {
         </div>
       </div>
 
-      {/* Desktop Carousel (Full Screen) */}
+      {/* Desktop Carousel - UNCHANGED */}
       <div className="hidden md:block relative h-full w-full">
         <div className="relative h-full w-full">
           {slides.map((slide, index) => (
@@ -336,19 +306,6 @@ const HeroBanner = () => {
                   priority={index === currentSlide}
                   quality={100}
                 />
-                {/* <div className="absolute inset-0 bg-black/30 flex items-center justify-start p-16">
-                  <div className="text-white max-w-xl">
-                    <h1 className="text-4xl font-bold mb-4">{slide.title}</h1>
-                    <h2 className="text-2xl mb-6">{slide.subtitle}</h2>
-                    <p className="text-lg mb-8">{slide.description}</p>
-                    <Button
-                      className="bg-yellow-500 hover:bg-yellow-600 text-black"
-                      onClick={() => handleButtonClick(slide.navLink)}
-                    >
-                      {slide.buttonText}
-                    </Button>
-                  </div>
-                </div> */}
               </div>
             </div>
           ))}

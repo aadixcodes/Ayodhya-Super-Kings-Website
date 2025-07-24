@@ -17,7 +17,7 @@ const Partner = () => {
     <section className="py-8 md:py-12 mt-10">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-2">
-          <h2 className="text-4xl sm:text-6xl font-koba text-[#1c0f0d]">
+          <h2 className="text-4xl sm:text-6xl font-koba opacity-95 text-[#1c0f0d]">
             OUR PARTNERS
           </h2>
         </div>

@@ -161,3 +161,13 @@ html {
   font-family: 'Koba', sans-serif;
 }
 
+@media (max-width: 768px) and (orientation: landscape) {
+  .mobile-banner-landscape {
+    height: min(70vh, 400px) !important;
+  }
+  
+  .mobile-banner-landscape img {
+    object-fit: contain !important;
+    object-position: center !important;
+  }
+}

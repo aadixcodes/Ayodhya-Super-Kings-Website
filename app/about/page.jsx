@@ -33,7 +33,7 @@ const About = () => {
               <span>Home / </span>
               <span>About Us</span>
             </nav>
-            <h1 className="text-5xl sm:text-6xl md:text-7xl font-koba text-[#1c0f0d]">
+            <h1 className="text-5xl sm:text-6xl md:text-7xl font-koba opacity-95 text-[#1c0f0d]">
               About Us
             </h1>
           </div>
@@ -44,7 +44,7 @@ const About = () => {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-6xl font-koba text-[#1c0f0d] mb-4">
+            <h2 className="text-4xl md:text-6xl font-koba text-[#1c0f0d] opacity-95 mb-4">
               Who are we?
             </h2>
             <div className="w-20 h-1 bg-[#fab604] mx-auto mb-6"></div>
@@ -145,7 +145,7 @@ const About = () => {
         </div>
       </section>
 
-      {/* Updated Timeline Section */}
+      {/* Updated Timeline Section with enhanced image styling */}
       <section
         className="py-16 my-16 relative flex flex-col justify-center items-center gap-6 bg-cover bg-center"
         style={{
@@ -159,7 +159,7 @@ const About = () => {
           {/* Text Content */}
           <div className="w-full lg:w-[50rem] h-full py-6 md:py-8 flex flex-col">
             <div>
-              <h1 className="text-4xl md:text-6xl mb-4 font-koba text-[#1c0f0d]">
+              <h1 className="text-4xl md:text-6xl mb-4 font-koba opacity-95 text-[#1c0f0d]">
                 The Rise of Ayodhya <br /> Super Kings
               </h1>
             </div>
@@ -178,13 +178,22 @@ const About = () => {
             </div>
           </div>
 
-          {/* Image Content */}
-          <div className="w-full lg:w-[25rem] h-[25rem] flex-shrink-0 flex items-center justify-center p-2">
-            <img
-              src="/assets/G1.jpg"
-              alt="Ayodhya Super Kings Team"
-              className="w-full h-full object-cover"
-            />
+          {/* Image Content with enhanced styling */}
+          <div className="w-full lg:w-[25rem] h-[25rem] flex-shrink-0 flex items-center justify-center p-2 relative">
+            <div className="absolute inset-0 border-4 border-[#fab604] rounded-xl transform rotate-1 z-10"></div>
+            <div className="absolute inset-0 border-4 border-white rounded-xl transform -rotate-1 z-10"></div>
+            <div className="w-full h-full overflow-hidden rounded-xl relative z-0 shadow-2xl">
+              {isLoading ? (
+                <div className="w-full h-full bg-gray-200 animate-pulse"></div>
+              ) : (
+                <Image
+                  src="/assets/G1.jpg"
+                  alt="Ayodhya Super Kings Team"
+                  fill
+                  className="object-cover"
+                />
+              )}
+            </div>
           </div>
         </div>
       </section>
@@ -193,7 +202,7 @@ const About = () => {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-6xl font-koba text-[#1c0f0d] mb-4">
+            <h2 className="text-4xl md:text-6xl font-koba  opacity-95 text-[#1c0f0d] mb-4">
               Our Leadership
             </h2>
             <div className="w-20 h-1 bg-[#fab604] mx-auto mb-6"></div>
@@ -311,7 +320,7 @@ const About = () => {
                 )}
               </div>
               <div className="lg:w-2/3 p-8 md:p-12">
-                <h2 className="text-3xl md:text4xl font-koba text-[#1c0f0d] mb-6">
+                <h2 className="text-3xl md:text4xl font-koba opacity-95 text-[#1c0f0d] mb-6">
                   Owner's Message
                 </h2>
                 <div className="text-[#1c0f0d] space-y-4">
@@ -347,44 +356,66 @@ const About = () => {
         </div>
       </section>
 
-      {/* Icon Player Section */}
+      {/* Enhanced Icon Player Section */}
       <section className="py-16 bg-[#f8f8f8]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
-            <div className="w-full lg:w-1/2">
+            {/* Image Container with fixed aspect ratio */}
+            <div className="w-full lg:w-1/2 h-[400px] md:h-[680px] relative">
               {isLoading ? (
-                <div className="relative h-80 sm:h-96 md:h-[350px] w-full bg-gray-200 animate-pulse rounded-xl"></div>
+                <div className="w-full h-full bg-gray-200 animate-pulse rounded-xl"></div>
               ) : (
-                <div className="relative h-80 sm:h-96 md:h-[350px] w-full rounded-xl overflow-hidden shadow-lg">
+                <div className="w-full h-full rounded-xl overflow-hidden shadow-lg relative">
                   <Image
                     src="/assets/amitgulia.JPG"
                     alt="Amit Gulia"
                     fill
                     className="object-cover object-top"
                     priority
+                    style={{ objectPosition: "top center" }}
                   />
+                  {/* Decorative element */}
+                  <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-black/70 to-transparent"></div>
                 </div>
               )}
             </div>
+            
+            {/* Text Content */}
             <div className="w-full lg:w-1/2 mt-6 lg:mt-0">
-              <h2 className="text-4xl md:text-5xl font-koba text-[#1c0f0d] mb-4">
+              <h2 className="text-4xl md:text-5xl font-koba opacity-95 text-[#1c0f0d] mb-4">
                 Icon of Ayodhya Super Kings
               </h2>
               <div className="w-20 h-1 bg-[#fab604] mb-6"></div>
-              <h3 className="text-2xl font-bold text-[#fab604] mb-2">
+              
+              <h3 className="text-3xl font-bold text-[#fab604] mb-2">
                 Amit Gulia
               </h3>
-              <p className="text-lg text-[#1c0f0d] mb-4">
+              <p className="text-xl italic text-[#1c0f0d] mb-6">
                 Explosive. Fearless. Relentless.
               </p>
-              <p className="text-[#1c0f0d] leading-relaxed mb-6">
-                From national glory to international pride, Amit Gulia stands
-                tall as one of India's fiercest volleyball attackers. With
-                killer spikes and a championship mindset, he's led teams to
-                victory across multiple national leagues and proudly represented
-                the tricolor on global courts.
-              </p>
-              <div className="flex flex-wrap gap-4">
+              
+              <div className="space-y-4 text-[#1c0f0d] leading-relaxed">
+                <p>
+                  Amit Gulia is not just a name — he's a force of nature on the volleyball court. 
+                  Known for his explosive spikes, fearless dives, and relentless energy, Amit has 
+                  carved his legacy as one of India's most lethal attackers. With an impressive 
+                  journey from domestic triumphs to international glory, he has consistently 
+                  dominated the net and ignited stadiums with his unmatched athleticism and passion.
+                </p>
+                <p>
+                  Amit's career is decorated with multiple national championships, where he not only 
+                  led his teams to victory but also emerged as a crowd-favorite for his aggressive 
+                  playstyle and leadership on court. His transition to the international stage was 
+                  marked with equal brilliance, as he donned the Indian jersey with pride, representing 
+                  the nation in prestigious global tournaments and making his mark among the world's best.
+                </p>
+                <p>
+                  With every serve and spike, Amit Gulia continues to inspire a new generation of 
+                  volleyball players, proving that with hard work, heart, and hunger — anything is possible.
+                </p>
+              </div>
+              
+              <div className="flex flex-wrap gap-4 mt-8">
                 <div className="flex items-center bg-[#fab604] px-4 py-2 rounded-full">
                   <Medal className="w-5 h-5 mr-2 text-[#1c0f0d]" />
                   <span className="text-[#1c0f0d] font-medium">

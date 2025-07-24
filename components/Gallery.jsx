@@ -26,7 +26,7 @@ const Gallery = () => {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center">
         {/* Heading - Centered at top */}
-        <h2 className="text-4xl sm:text-6xl font-koba text-[#1c0f0d] mb-10 text-center">
+        <h2 className="text-4xl sm:text-6xl font-koba opacity-95 text-[#1c0f0d] mb-10 text-center">
           GALLERY
         </h2>
 

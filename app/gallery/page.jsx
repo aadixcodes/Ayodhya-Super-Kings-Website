@@ -135,7 +135,7 @@ export default function Gallery() {
               <span>Home / </span>
               <span>gallery</span>
             </nav>
-            <h1 className="text-5xl sm:text-6xl md:text-7xl font-koba text-[#1c0f0d]">Gallery</h1>
+            <h1 className="text-5xl sm:text-6xl md:text-7xl font-koba opacity-95 text-[#1c0f0d]">Gallery</h1>
           </div>
         </div>
       </section>

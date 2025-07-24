@@ -20,7 +20,7 @@ export default function Blogs() {
               <span>Home / </span>
               <span>blogs</span>
             </nav>
-            <h1 className="text-5xl sm:text-6xl md:text-7xl font-koba text-[#1c0f0d]">Blogs</h1>
+            <h1 className="text-5xl sm:text-6xl md:text-7xl font-koba opacity-95 text-[#1c0f0d]">Blogs</h1>
           </div>
         </div>
       </section>
@@ -29,7 +29,7 @@ export default function Blogs() {
       <section className="py-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
         <div className="text-center mb-8">
           <h2 className="text-4xl font-bold text-[#fab604]">Our Blogs</h2>
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-koba text-[#1c0f0d]  mt-2">Latest Blogs and Articles</h1>
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-koba opacity-95 text-[#1c0f0d]  mt-2">Latest Blogs and Articles</h1>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 mt-20">
