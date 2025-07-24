@@ -3,6 +3,8 @@
 import Link from 'next/link';
 import { Calendar } from 'lucide-react';
 import { blogPosts } from './blogData';
+import Partner from "@/components/Partners";
+
 
 export default function Blogs() {
   return (
@@ -26,7 +28,7 @@ export default function Blogs() {
       </section>
 
       {/* Blog Content Section */}
-      <section className="py-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      <section className="pt-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
         <div className="text-center mb-8">
           <h2 className="text-4xl font-bold text-[#fab604]">Our Blogs</h2>
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-koba opacity-95 text-[#1c0f0d]  mt-2">Latest Blogs and Articles</h1>
@@ -65,6 +67,7 @@ export default function Blogs() {
           ))}
         </div>
       </section>
+      <Partner />
     </div>
   );
 }

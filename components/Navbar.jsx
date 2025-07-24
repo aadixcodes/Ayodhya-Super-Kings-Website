@@ -43,27 +43,25 @@
 //   }, []);
 
 //   return (
-//     <header className={`fixed w-full z-50 transition-all duration-300`}>
-//       {/* Main Navbar Container */}
-//       <div className={`max-w-7xl lg:mx-auto mx-[1rem] md:mx-0 bg-center bg-no-repeat bg-cover ${isMenuOpen ? 'rounded-none' : 'rounded-full'} ${isMenuOpen ? 'mt-0' : 'mt-2 lg:mt-3'} px-0 lg:px-0 relative`}
+//     <header className={`fixed w-full z-50 top-0 left-0 transition-all duration-300 ${scrolled ? 'bg-white shadow-md' : ''}`}>
+//       {/* Main Navbar Container - now full width */}
+//       <div className="w-full bg-center bg-no-repeat bg-cover px-4 lg:px-6"
 //       style={{ backgroundImage: "url('/assets/bgbanner.png')" }}>
-//         <div className="flex justify-between items-center h-16 lg:h-18">
-//           {/* Logo - Positioned outside on left */}
-//           {!isMenuOpen && (
-//             <Link href="/" className="flex items-center space-x-3 z-50 absolute -left-[6px] lg:-left-4 top-1/2 transform -translate-y-1/2">
-//               <div className="relative h-20 w-20">
-//                 <Image 
-//                   src="/assets/logo.png" 
-//                   alt="Ayodhya Super Kings" 
-//                   fill 
-//                   className="object-contain"
-//                   priority
-//                 />
-//               </div>
-//             </Link>
-//           )}
+//         <div className="max-w-7xl mx-auto flex justify-between items-center h-16 lg:h-20">
+//           {/* Logo */}
+//           <Link href="/" className="flex items-center z-50">
+//             <div className="relative h-14 w-14 lg:h-16 lg:w-16">
+//               <Image 
+//                 src="/assets/logo.png" 
+//                 alt="Ayodhya Super Kings" 
+//                 fill 
+//                 className="object-contain"
+//                 priority
+//               />
+//             </div>
+//           </Link>
 
-//           {/* Desktop Navigation - Now properly centered */}
+//           {/* Desktop Navigation */}
 //           <div className="hidden lg:flex flex-1 justify-center items-center">
 //             <nav className="flex items-center justify-center w-full">
 //               <div className="flex space-x-1 px-6 py-2">
@@ -85,7 +83,7 @@
 //           </div>
 
 //           {/* Social Icons */}
-//           <div className="hidden lg:flex items-center space-x-2 px-4 py-2 absolute right-0">
+//           <div className="hidden lg:flex items-center space-x-2 px-4 py-2">
 //             <a
 //               href="https://www.facebook.com/people/Ayodhya-Superkings/61575231071878/"
 //               className="text-black hover:text-black transition-colors duration-300 p-2 rounded-full hover:bg-white"
@@ -113,7 +111,7 @@
 //           </div>
 
 //           {/* Mobile Menu Button */}
-//           <div className="lg:hidden absolute right-4 top-1/2 transform -translate-y-1/2 z-50">
+//           <div className="lg:hidden z-50">
 //             <Button
 //               variant="ghost"
 //               size="sm"
@@ -228,10 +226,13 @@ const Navigation = () => {
   }, []);
 
   return (
-    <header className={`fixed w-full z-50 top-0 left-0 transition-all duration-300 ${scrolled ? 'bg-white shadow-md' : ''}`}>
+    <header className={`fixed w-full z-50 top-0 border-b-[1px] border-black left-0 transition-all duration-300 ${scrolled ? 'bg-white shadow-md' : ''}`}>
       {/* Main Navbar Container - now full width */}
-      <div className="w-full bg-center bg-no-repeat bg-cover px-4 lg:px-6"
+      <div className="w-full bg-center bg-no-repeat bg-cover px-4 lg:px-6 relative"
       style={{ backgroundImage: "url('/assets/bgbanner.png')" }}>
+        {/* Add a bottom border div */}
+        <div className="absolute bottom-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-yellow-400 to-transparent"></div>
+        
         <div className="max-w-7xl mx-auto flex justify-between items-center h-16 lg:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center z-50">

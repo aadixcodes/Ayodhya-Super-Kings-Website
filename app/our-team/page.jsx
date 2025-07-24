@@ -2,6 +2,8 @@
 
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
+import Partner from "@/components/Partners";
+
 
 export default function OurTeam() {
   const [activeTab, setActiveTab] = useState('team');
@@ -68,7 +70,7 @@ export default function OurTeam() {
       </section>
 
       {/* Team Section */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 md:pt-12">
         {/* Toggle Tabs - Unchanged */}
         <div className="flex justify-center mb-8 md:mb-12">
           <div className="flex gap-3 md:gap-5 p-1 rounded-lg bg-white shadow-sm">
@@ -156,6 +158,7 @@ export default function OurTeam() {
           )}
         </div>
       </section>
+      <Partner />
     </div>
   );
 }

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Partner from "@/components/Partners";
 import Link from "next/link";
 import {
   Facebook,
@@ -124,7 +125,7 @@ export default function Fixtures() {
       </section>
 
       {/* Fixtures Schedule Section */}
-      <section className="py-8 sm:py-12 md:py-16 lg:py-20 px-4 sm:px-6 lg:px-8">
+      <section className="pt-8 sm:pt-12 md:pt-16 lg:pt-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
           {/* Fixtures Grid */}
           <div className="space-y-4 sm:space-y-6">
@@ -249,6 +250,7 @@ export default function Fixtures() {
           </div>
         </div>
       </section>
+      <Partner />
     </div>
   );
 }
