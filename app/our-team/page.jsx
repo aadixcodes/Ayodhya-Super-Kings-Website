@@ -31,7 +31,7 @@ export default function OurTeam() {
       title: 'Head Coach'
     },
     {
-      image: '/assets/vijaytomar2.JPG',
+      image: '/assets/vijaytomar3.png',
       name: 'Vijay Tomar',
       title: 'Assistant Coach'
     }
@@ -62,7 +62,7 @@ export default function OurTeam() {
               <span>Home / </span>
               <span>Our Team</span>
             </nav>
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold">Our Team</h1>
+            <h1 className="text-5xl sm:text-6xl md:text-7xl font-koba text-[#1c0f0d]">Our Team</h1>
           </div>
         </div>
       </section>

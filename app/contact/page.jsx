@@ -340,7 +340,7 @@ export default function ContactPage() {
               <span>Home / </span>
               <span>contact</span>
             </nav>
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold">Contact Us</h1>
+            <h1 className="text-5xl sm:text-6xl md:text-7xl font-koba text-[#1c0f0d]">Contact Us</h1>
           </div>
         </div>
       </section>
@@ -350,9 +350,9 @@ export default function ContactPage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8 md:mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-2 md:mb-4">
-              <span className="text-[#fab604] text-5xl md:text-7xl stroke-only">Contact</span>
+              <span className="text-[#fab604] text-3xl md:text-4xl stroke-only">Contact</span>
             </h2>
-            <h3 className="text-3xl md:text-5xl font-bold text-[#1c0f0d]">Contact Information</h3>
+            <h3 className="text-4xl md:text-6xl font-koba text-[#1c0f0d] ">Contact Information</h3>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 mb-12 md:mb-16">
@@ -361,10 +361,7 @@ export default function ContactPage() {
                 <Phone className="w-6 h-6 md:w-8 md:h-8 text-[#1c0f0d]" />
               </div>
               <h4 className="text-md md:text-xl font-bold text-[#1c0f0d] mb-1 md:mb-2">+91-99995 32227</h4>
-              {/* <p className="text-[#1c0f0d] text-xs md:text-sm">
-                Call us for match<br />
-                enquiries.
-              </p> */}
+              
             </div>
 
             <div className="text-center border-b-2 sm:border-b-0 md:border-r-2 border-[#fab604] p-4">
@@ -372,10 +369,7 @@ export default function ContactPage() {
                 <Mail className="w-6 h-6 md:w-8 md:h-8 text-[#1c0f0d]" />
               </div>
               <h4 className="text-md md:text-xl font-bold text-[#1c0f0d] mb-1 md:mb-2 break-all px-2">ayodhya.super.kings@uppvl.com</h4>
-              {/* <p className="text-[#1c0f0d] text-xs md:text-sm">
-                Send your queries<br />
-                by email.
-              </p> */}
+              
             </div>
 
             <div className="text-center p-4">
@@ -383,10 +377,7 @@ export default function ContactPage() {
                 <MapPin className="w-6 h-6 md:w-8 md:h-8 text-[#1c0f0d]" />
               </div>
               <h4 className="text-md md:text-xl font-bold text-[#1c0f0d] mb-1 md:mb-2">G-48, First Floor, Jungpura Extension, Near Eros Cinema, New Delhi-110014</h4>
-              {/* <p className="text-[#1c0f0d] text-xs md:text-sm">
-                Find us in<br />
-                Ayodhya city.
-              </p> */}
+              
             </div>
           </div>
         </div>
@@ -398,11 +389,12 @@ export default function ContactPage() {
           <div className="grid md:grid-cols-2 gap-8 md:gap-12">
             <div className='flex flex-col justify-center items-center md:items-start'>
               <h3 className="text-3xl md:text-4xl font-bold mb-2 md:mb-4">
-                <span className="text-[#fab604] text-5xl md:text-7xl stroke-only">Form</span>
+                <span className="text-[#1c0f0d] text-5xl md:text-7xl font-koba tracking-wider">Form</span>
               </h3>
-              <h4 className="text-3xl md:text-5xl font-bold text-[#1c0f0d] mb-4 md:mb-6">Get In Touch !!</h4>
+              <h4 className="text-3xl md:text-5xl font-bold text-[#fab604] mb-4 md:mb-6">Get In Touch !!</h4>
               <p className="text-[#1c0f0d] mb-6 md:mb-8 leading-relaxed text-sm md:text-base">
-                Have a question, suggestion, or just want to cheer for the Ayodhya Super Kings? We'd love to hear from you! Whether you're a fan, a fellow player, a sponsor, or a brand looking to collaborate — feel free to reach out. Let's build something exciting together, on and off the court.
+              Got a game-changing idea or just want to connect with the squad behind the spikes? 
+              Reach out to the Ayodhya Super Kings team! Whether you're a fan cheering from the stands, a sponsor ready to back champions, or a collaborator looking to join our winning journey — we’re here for it. Let’s turn passion into play and conversations into action. The court is calling!
               </p>
             </div>
 

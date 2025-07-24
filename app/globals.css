@@ -149,3 +149,15 @@ html {
 }
 
 
+@font-face {
+  font-family: 'Koba';
+  src: url('/font/koba.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font-koba {
+  font-family: 'Koba', sans-serif;
+}
+

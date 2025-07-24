@@ -5,7 +5,7 @@ export const blogPosts = [
       title: "The Rise of Ayodhya Super Kings",
       description: "How Ayodhya's new volleyball franchise is making waves in the UPPVL with strategic picks and regional pride.",
       date: "July 21, 2025",
-      image: "/assets/aboutsection.png",
+      image: "/assets/blog1.JPG",
       author: "Sports Journalist",
       readTime: "4 min read",
       content: [
@@ -182,7 +182,7 @@ export const blogPosts = [
       title: "Why Fans Are the Real Kings of the Game",
       description: "How Ayodhya Super Kings is building a passionate fan community that fuels the team's spirit.",
       date: "July 21, 2025",
-      image: "https://i.pinimg.com/1200x/47/03/a0/4703a02876030b53954e3e397e15a268.jpg",
+      image: "/assets/blog4.JPG",
       author: "Fan Engagement Manager",
       readTime: "4 min read",
       content: [

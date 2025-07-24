@@ -116,7 +116,7 @@ export default function Fixtures() {
               <span>Home / </span>
               <span>fixtures</span>
             </nav>
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold">
+            <h1 className="text-5xl sm:text-6xl md:text-7xl font-koba text-[#1c0f0d]">
               Matches Shedule
             </h1>
           </div>

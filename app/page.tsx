@@ -18,7 +18,7 @@ export default function HomePage() {
     <div>
       {/* <Navbar /> */}
       <Hero />
-      <ASKText />
+      {/* <ASKText /> */}
       <About />
       <NextMatch />
       <Gallery />

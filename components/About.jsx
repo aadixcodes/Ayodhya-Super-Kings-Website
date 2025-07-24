@@ -106,7 +106,7 @@ const AboutUs = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Hero Section */}
         <div className="text-center mb-16">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#1c0f0d] mb-4">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl text-[#1c0f0d] mb-4 font-koba">
             Welcome to Ayodhya Super Kings
           </h1>
           <p className="text-xl text-[#fab604] font-medium mb-6">
@@ -141,7 +141,7 @@ const AboutUs = () => {
 
             {/* Why Choose Us */}
             <div className="mt-8">
-              <h3 className="text-2xl font-bold text-[#1c0f0d] mb-4">
+              <h3 className="text-3xl text-[#1c0f0d] mb-4 font-koba">
                 Why Ayodhya Super Kings?
               </h3>
               <ul className="space-y-3">
