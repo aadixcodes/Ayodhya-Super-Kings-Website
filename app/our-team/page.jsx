@@ -28,7 +28,7 @@ export default function OurTeam() {
 
   const staffData = [
     {
-      image: '/assets/amritpal2.JPG',
+      image: '/assets/amritpal3.jpg',
       name: 'Amrit Pal Singh',
       title: 'Head Coach'
     },
