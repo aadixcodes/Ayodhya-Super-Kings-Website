@@ -336,11 +336,11 @@ export default function ContactPage() {
             className="absolute inset-0 w-full h-full object-cover object-center"
           />
           <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-[#1c0f0d] p-4">
-            <nav className="text-xs sm:text-sm md:text-base mb-2 mt-12 sm:mt-0">
+            {/* <nav className="text-xs sm:text-sm md:text-base mb-2 mt-12 sm:mt-0">
               <span>Home / </span>
               <span>contact</span>
-            </nav>
-            <h1 className="text-5xl sm:text-6xl md:text-7xl font-koba opacity-95 text-[#1c0f0d]">Contact Us</h1>
+            </nav> */}
+            <h1 className="text-5xl sm:text-6xl md:text-7xl font-koba opacity-95 text-[#1c0f0d] mt-14">Contact Us</h1>
           </div>
         </div>
       </section>
@@ -349,9 +349,7 @@ export default function ContactPage() {
       <section className="py-12 md:py-16 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8 md:mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-2 md:mb-4">
-              <span className="text-[#fab604] text-3xl md:text-4xl stroke-only">Contact</span>
-            </h2>
+            
             <h3 className="text-4xl md:text-6xl font-koba opacity-95 text-[#1c0f0d] ">Contact Information</h3>
           </div>
 

@@ -186,7 +186,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useRouter, usePathname } from 'next/navigation';
-import { Menu, X, Facebook, Instagram, Twitter } from 'lucide-react';
+import { Menu, X, Facebook, Instagram, Twitter, Youtube } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
 
@@ -294,6 +294,14 @@ const Navigation = () => {
             >
               <Twitter size={20} />
             </a>
+            <a
+              href="https://www.youtube.com/@AyodhyaSuperkings/shorts"
+              className="text-black hover:text-black transition-colors duration-300 p-2 rounded-full hover:bg-white"
+              aria-label="Youtube"
+              target="_blank"
+            >
+              <Youtube size={20} />
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -320,7 +328,7 @@ const Navigation = () => {
               <Link
                 key={item.name}
                 href={item.path}
-                className={`text-xl font-medium transition-all duration-300 px-6 py-2 rounded-full ${
+                className={`text-lg font-medium transition-all duration-300 px-6 py-2 rounded-full ${
                   isActive(item.path)
                     ? 'text-black bg-white border-2 border-yellow-400'
                     : 'text-black hover:bg-yellow-400 hover:text-black'
@@ -339,7 +347,7 @@ const Navigation = () => {
                 aria-label="Facebook"
                 target="_blank"
               >
-                <Facebook size={24} />
+                <Facebook size={20} />
               </a>
               <a
                 href="https://www.instagram.com/ayodhyasuperkings/"
@@ -347,7 +355,7 @@ const Navigation = () => {
                 aria-label="Instagram"
                 target="_blank"
               >
-                <Instagram size={24} />
+                <Instagram size={20} />
               </a>
               <a
                 href="https://x.com/ASuperkings/"
@@ -355,7 +363,15 @@ const Navigation = () => {
                 aria-label="Twitter"
                 target="_blank"
               >
-                <Twitter size={24} />
+                <Twitter size={20} />
+              </a>
+              <a
+                href="https://www.youtube.com/@AyodhyaSuperkings/shorts"
+                className="text-black hover:text-black hover:bg-white transition-colors duration-300 p-3 rounded-full"
+                aria-label="Youtube"
+                target="_blank"
+              >
+                <Youtube size={20} />
               </a>
             </div>
           </div>

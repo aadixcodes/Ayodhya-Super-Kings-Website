@@ -107,7 +107,7 @@ const AboutUs = () => {
         {/* Hero Section */}
         <div className="text-center mb-16">
           <h1 className="text-4xl sm:text-5xl md:text-6xl text-[#1c0f0d] mb-4 font-koba opacity-95">
-            Welcome to Ayodhya Super Kings
+            Welcome To Ayodhya Super Kings
           </h1>
           <p className="text-xl text-[#fab604] font-medium  mb-6">
             Where Legacy Meets Legacy-Makers

@@ -22,7 +22,7 @@ const Partner = () => {
           </h2>
         </div>
         <div className="text-center  mb-6 md:mb-8">
-          <p className="text-xl text-[#1c0f0d]"> <i> Official Broadcast Partners </i></p>
+          <p className="text-xl text-[#1c0f0d]"> <i> Official Broadcasting Partner </i></p>
         </div>
 
         {/* Partner logos - now with consistent spacing */}

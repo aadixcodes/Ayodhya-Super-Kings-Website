@@ -113,12 +113,12 @@ export default function Fixtures() {
             className="absolute inset-0 w-full h-full object-cover object-center"
           />
           <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-[#1c0f0d] p-4">
-            <nav className="text-xs sm:text-sm md:text-base mb-2 mt-12 sm:mt-0">
+            {/* <nav className="text-xs sm:text-sm md:text-base mb-2 mt-12 sm:mt-0">
               <span>Home / </span>
               <span>fixtures</span>
-            </nav>
-            <h1 className="text-5xl sm:text-6xl md:text-7xl font-koba opacity-95 text-[#1c0f0d]">
-              Matches Shedule
+            </nav> */}
+            <h1 className="text-5xl sm:text-6xl md:text-7xl font-koba opacity-95 text-[#1c0f0d] mt-14">
+              Matches Schedule
             </h1>
           </div>
         </div>

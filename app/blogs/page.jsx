@@ -18,11 +18,11 @@ export default function Blogs() {
             className="absolute inset-0 w-full h-full object-cover object-center"
           />
           <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-[#1c0f0d] p-4">
-            <nav className="text-xs sm:text-sm md:text-base mb-2 mt-12 sm:mt-0">
+            {/* <nav className="text-xs sm:text-sm md:text-base mb-2 mt-12 sm:mt-0">
               <span>Home / </span>
               <span>blogs</span>
-            </nav>
-            <h1 className="text-5xl sm:text-6xl md:text-7xl font-koba opacity-95 text-[#1c0f0d]">Blogs</h1>
+            </nav> */}
+            <h1 className="text-5xl sm:text-6xl md:text-7xl font-koba opacity-95 text-[#1c0f0d] mt-14">Blogs</h1>
           </div>
         </div>
       </section>
@@ -31,7 +31,7 @@ export default function Blogs() {
       <section className="pt-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
         <div className="text-center mb-8">
           <h2 className="text-4xl font-bold text-[#fab604]">Our Blogs</h2>
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-koba opacity-95 text-[#1c0f0d]  mt-2">Latest Blogs and Articles</h1>
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-koba opacity-95 text-[#1c0f0d]  mt-2">Latest Blogs And Articles</h1>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 mt-20">

@@ -29,11 +29,11 @@ const About = () => {
             priority
           />
           <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-[#1c0f0d] p-4">
-            <nav className="text-xs sm:text-sm md:text-base mb-2 mt-12 sm:mt-0">
+            {/* <nav className="text-xs sm:text-sm md:text-base mb-2 mt-12 sm:mt-0">
               <span>Home / </span>
               <span>About Us</span>
-            </nav>
-            <h1 className="text-5xl sm:text-6xl md:text-7xl font-koba opacity-95 text-[#1c0f0d]">
+            </nav> */}
+            <h1 className="text-5xl sm:text-6xl md:text-7xl font-koba opacity-95 text-[#1c0f0d] mt-14">
               About Us
             </h1>
           </div>
@@ -45,7 +45,7 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-6xl font-koba text-[#1c0f0d] opacity-95 mb-4">
-              Who are we?
+              Who Are We?
             </h2>
             <div className="w-20 h-1 bg-[#fab604] mx-auto mb-6"></div>
             <p className="text-lg text-[#1c0f0d] max-w-4xl mx-auto leading-relaxed">

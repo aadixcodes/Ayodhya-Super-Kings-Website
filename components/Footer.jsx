@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Facebook, Instagram, Twitter, Mail } from "lucide-react";
+import { Facebook, Instagram, Twitter, Mail, Youtube } from "lucide-react";
 
 const Footer = () => {
   const quickLinks = [
@@ -58,6 +58,7 @@ const Footer = () => {
             <div className="space-y-3">
               <a
                 href="https://www.instagram.com/ayodhyasuperkings/"
+                target="_blank"
                 className="flex items-center space-x-3 text-brand-text hover:text-brand-orange transition-colors duration-300"
               >
                 <Instagram size={20} />
@@ -65,6 +66,7 @@ const Footer = () => {
               </a>
               <a
                 href="https://www.facebook.com/people/Ayodhya-Superkings/61575231071878/"
+                target="_blank"
                 className="flex items-center space-x-3 text-brand-text hover:text-brand-orange transition-colors duration-300"
               >
                 <Facebook size={20} />
@@ -72,13 +74,23 @@ const Footer = () => {
               </a>
               <a
                 href="https://x.com/ASuperkings/"
+                target="_blank"
                 className="flex items-center space-x-3 text-brand-text hover:text-brand-orange transition-colors duration-300"
               >
                 <Twitter size={20} />
                 <span className="text-md font-medium">Twitter</span>
               </a>
               <a
+                href="https://www.youtube.com/@AyodhyaSuperkings/shorts"
+                target="_blank"
+                className="flex items-center space-x-3 text-brand-text hover:text-brand-orange transition-colors duration-300"
+              >
+                <Youtube size={20} />
+                <span className="text-md font-medium">Youtube</span>
+              </a>
+              <a
                 href="mailto:ayodhya.super.kings@uppvl.com"
+                target="_blank"
                 className="flex items-center space-x-3 text-brand-text hover:text-brand-orange transition-colors duration-300"
               >
                 <Mail size={20} />
@@ -125,6 +137,7 @@ const Footer = () => {
               <div className="flex flex-col items-center space-y-1">
                 <a
                   href="https://www.instagram.com/ayodhyasuperkings/"
+                  target="_blank"
                   className="flex items-center space-x-2 text-brand-text hover:text-brand-orange transition-colors"
                 >
                   <Instagram size={16} />
@@ -132,6 +145,7 @@ const Footer = () => {
                 </a>
                 <a
                   href="https://www.facebook.com/people/Ayodhya-Superkings/61575231071878/"
+                  target="_blank"
                   className="flex items-center space-x-2 text-brand-text hover:text-brand-orange transition-colors"
                 >
                   <Facebook size={16} />
@@ -139,13 +153,23 @@ const Footer = () => {
                 </a>
                 <a
                   href="https://x.com/ASuperkings/"
+                  target="_blank"
                   className="flex items-center space-x-2 text-brand-text hover:text-brand-orange transition-colors"
                 >
                   <Twitter size={16} />
                   <span className="text-sm font-medium">Twitter</span>
                 </a>
                 <a
+                  href="https://www.youtube.com/@AyodhyaSuperkings/shorts"
+                  target="_blank"
+                  className="flex items-center space-x-2 text-brand-text hover:text-brand-orange transition-colors"
+                >
+                  <Youtube size={16} />
+                  <span className="text-sm font-medium">Youtube</span>
+                </a>
+                <a
                   href="mailto:ayodhya.super.kings@uppvl.com"
+                  target="_blank"
                   className="flex items-center space-x-2 text-brand-text hover:text-brand-orange transition-colors"
                 >
                   <Mail size={16} />
