@@ -220,7 +220,7 @@ const About = () => {
               ) : (
                 <div className="relative h-[25rem]">
                   <Image
-                    src="/assets/pratibhanew.JPG"
+                    src="/assets/pratibhaneww.jpg"
                     alt="Pratibha Tiwari"
                     fill
                     className="object-cover object-top"
@@ -247,7 +247,7 @@ const About = () => {
               ) : (
                 <div className="relative h-[25rem]">
                   <Image
-                    src="/assets/amritpal2.JPG"
+                    src="/assets/amritpal3.jpg"
                     alt="Amrit Pal Singh"
                     fill
                     className="object-cover object-top"

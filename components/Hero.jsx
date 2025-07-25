@@ -189,7 +189,7 @@ const HeroBanner = () => {
   const slides = [
     {
       id: 1,
-      image: "/assets/banner-1.jpg",
+      image: "/assets/new-banner-11.jpg",
       title: "Ayodhya Super Kings",
       subtitle: "Rise. Serve. Conquer.",
       description: "Welcome to the official home of Ayodhya Super Kings – the leading volleyball team that embodies passion, teamwork, and an unwavering desire to win.",
@@ -198,7 +198,7 @@ const HeroBanner = () => {
     },
     {
       id: 2,
-      image: "/assets/banner-2.jpg",
+      image: "/assets/new-banner-22.jpg",
       title: "Championship Spirit",
       subtitle: "United We Play. United We Win.",
       description: "Experience the thrill of competitive volleyball with a team that never gives up. Every serve, every spike, every victory reflects our commitment to excellence.",
