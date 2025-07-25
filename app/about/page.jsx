@@ -17,7 +17,7 @@ const About = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-[#f8f8f8]">
+    <div className="min-h-screen bg-white">
       {/* Hero Section */}
       <section className="relative w-full overflow-hidden">
         <div className="relative h-[220px] sm:h-[260px] md:h-[320px] lg:h-[380px] xl:h-[420px]">

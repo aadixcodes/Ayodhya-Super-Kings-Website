@@ -103,7 +103,7 @@ export default function Fixtures() {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen">
       {/* Page Header */}
       <section className="relative w-full overflow-hidden">
         <div className="relative h-[220px] sm:h-[260px] md:h-[320px] lg:h-[380px] xl:h-[420px]">
