@@ -7,7 +7,7 @@ const Footer = () => {
     { name: "About Us", path: "/about" },
     { name: "Our Team", path: "/our-team" },
     { name: "Gallery", path: "/gallery" },
-    { name: "Matches Schedules", path: "/fixtures" },
+    // { name: "Matches Schedules", path: "/fixtures" },
     { name: "Blogs", path: "/blogs" },
     { name: "Contact us", path: "/contact" },
   ];
@@ -186,7 +186,7 @@ const Footer = () => {
             © Copyright 2025 Ayodhya Super Kings. All Rights Reserved.
           </p>
           <p className="text-brand-text text-md">
-            Design & Developed By Varnix Media Pvt. Ltd.
+          Designed & Developed by Varnix Media Pvt. Ltd.
           </p>
         </div>
       </div>

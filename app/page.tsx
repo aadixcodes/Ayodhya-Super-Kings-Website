@@ -20,7 +20,7 @@ export default function HomePage() {
       <Hero />
       {/* <ASKText /> */}
       <About />
-      <NextMatch />
+      {/* <NextMatch /> */}
       <Gallery />
       <Partners />
       {/* <Footer /> */}

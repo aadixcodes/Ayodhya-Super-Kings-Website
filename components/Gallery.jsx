@@ -21,7 +21,7 @@ const Gallery = () => {
   }, []);
 
   return (
-    <section className="relative py-16 bg-center bg-no-repeat bg-cover"
+    <section className="relative py-16 mt-20 bg-center bg-no-repeat bg-cover"
       style={{ backgroundImage: "url('/assets/bgbanner.png')" }}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center">
