@@ -16,88 +16,102 @@ export default function Fixtures() {
   const [activeTab, setActiveTab] = useState("Teams");
 
   const fixturesData = [
+    // {
+    //   id: 1,
+    //   team1: {
+    //     name: "Lucknow Tigers",
+    //     logo: "/assets/lucknowlogo.png",
+    //   },
+    //   team2: {
+    //     name: "Ayodhya Super Kings",
+    //     logo: "/assets/logo.png",
+    //   },
+    //   date: "July 14, 2025",
+    //   stadium: "Shaheed Vijay Singh Pathak Sports Complex Indoor Stadium",
+    //   featured: true,
+    // },
     {
-      id: 1,
+      id: 2,
       team1: {
-        name: "Lucknow Tigers",
-        logo: "/assets/lucknowlogo.png",
+        name: "Gorakhpur Giants",
+        logo: "/assets/logo/gorakhpur.png",
       },
       team2: {
         name: "Ayodhya Super Kings",
-        logo: "/assets/logo.png",
+        logo: "/assets/logo/ayodhya.png",
       },
-      date: "July 14, 2025",
+      date: "August 7, 2025",
+      time: "5:00 PM - 6:30 PM",
+      matchNumber: "M2",
       stadium: "Shaheed Vijay Singh Pathak Sports Complex Indoor Stadium",
       featured: true,
     },
     {
-      id: 2,
-      team1: {
-        name: "Team A",
-        logo: "/assets/lucknowlogo.png",
-      },
-      team2: {
-        name: "Team B",
-        logo: "/assets/logo.png",
-      },
-      date: "July 21, 2025",
-      stadium: "Stadium name",
-      featured: false,
-    },
-    {
       id: 3,
       team1: {
-        name: "Team B",
-        logo: "/assets/lucknowlogo.png",
+        name: "Lucknow Tigers",
+        logo: "/assets/logo/lucknow.png",
       },
       team2: {
-        name: "Team B",
-        logo: "/assets/logo.png",
+        name: "Ayodhya Super Kings",
+        logo: "/assets/logo/ayodhya.png",
       },
-      date: "July 22, 2025",
-      stadium: "Stadium name",
+      date: "August 9, 2025",
+      time: "3:30 PM - 5:00 PM",
+      matchNumber: "M5",
+      stadiumLine1: "Shaheed Vijay Singh Pathak",
+      stadiumLine2: "Sports Complex Indoor Stadium",
       featured: false,
     },
     {
       id: 4,
       team1: {
-        name: "Team C",
-        logo: "/assets/lucknowlogo.png",
+        name: "Muzaffarnagar Lions",
+        logo: "/assets/logo/muzaffarnagar.png",
       },
       team2: {
-        name: "Team B",
-        logo: "/assets/logo.png",
+        name: "Ayodhya Super Kings",
+        logo: "/assets/logo/ayodhya.png",
       },
-      date: "July 23, 2025",
-      stadium: "Stadium name",
+      date: "August 12, 2025",
+      time: "5:00 PM - 6:30 PM",
+      matchNumber: "M12",
+      stadiumLine1: "Shaheed Vijay Singh Pathak",
+      stadiumLine2: "Sports Complex Indoor Stadium",
       featured: false,
     },
     {
       id: 5,
       team1: {
-        name: "Team D",
-        logo: "/assets/lucknowlogo.png",
+        name: "Noida Thunders",
+        logo: "/assets/logo/noida.png",
       },
       team2: {
-        name: "Team B",
-        logo: "/assets/logo.png",
+        name: "Ayodhya Super Kings",
+        logo: "/assets/logo/ayodhya.png",
       },
-      date: "July 24, 2025",
-      stadium: "Stadium name",
+      date: "August 14, 2025",
+      time: "3:30 PM - 5:00 PM",
+      matchNumber: "M15",
+      stadiumLine1: "Shaheed Vijay Singh Pathak",
+      stadiumLine2: "Sports Complex Indoor Stadium",
       featured: false,
     },
     {
       id: 6,
       team1: {
-        name: "Team D",
-        logo: "/assets/lucknowlogo.png",
+        name: "Moradabad Bulls",
+        logo: "/assets/logo/moradabad.png",
       },
       team2: {
-        name: "Team B",
-        logo: "/assets/logo.png",
+        name: "Ayodhya Super Kings",
+        logo: "/assets/logo/ayodhya.png",
       },
-      date: "July 25, 2025",
-      stadium: "Stadium name",
+      date: "August 15, 2025",
+      time: "5:00 PM - 6:30 PM",
+      matchNumber: "M18",
+      stadiumLine1: "Shaheed Vijay Singh Pathak",
+      stadiumLine2: "Sports Complex Indoor Stadium",
       featured: false,
     },
   ];
@@ -113,10 +127,6 @@ export default function Fixtures() {
             className="absolute inset-0 w-full h-full object-cover object-center"
           />
           <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-[#1c0f0d] p-4">
-            {/* <nav className="text-xs sm:text-sm md:text-base mb-2 mt-12 sm:mt-0">
-              <span>Home / </span>
-              <span>fixtures</span>
-            </nav> */}
             <h1 className="text-5xl sm:text-6xl md:text-7xl font-koba opacity-95 text-[#1c0f0d] mt-14">
               Matches Schedule
             </h1>
@@ -204,7 +214,7 @@ export default function Fixtures() {
                           <span className="text-sm sm:text-base font-bold text-[#1c0f0d]">
                             {fixture.team1.name}
                           </span>
-                          <div className="w-12 h-12 sm:w-14 sm:h-14  rounded-full flex items-center justify-center  p-1">
+                          <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-full flex items-center justify-center p-1">
                             <img
                               src={fixture.team1.logo}
                               alt={fixture.team1.name}
@@ -212,15 +222,15 @@ export default function Fixtures() {
                             />
                           </div>
                         </div>
-
+            
                         {/* VS */}
                         <span className="text-xl sm:text-2xl font-bold text-[#1c0f0d]">
                           VS
                         </span>
-
+            
                         {/* Team 2 */}
                         <div className="flex items-center gap-3">
-                          <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-full flex items-center justify-center  p-1">
+                          <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-full flex items-center justify-center p-1">
                             <img
                               src={fixture.team2.logo}
                               alt={fixture.team2.name}
@@ -232,14 +242,15 @@ export default function Fixtures() {
                           </span>
                         </div>
                       </div>
-
+            
                       {/* Right Side - Date & Stadium */}
                       <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-4 w-full sm:w-auto">
                         <div className="bg-[#1c0f0d] text-white px-3 sm:px-4 py-1 sm:py-2 rounded text-xs sm:text-sm font-semibold whitespace-nowrap">
                           {fixture.date}
                         </div>
                         <div className="text-[#1c0f0d] text-xs sm:text-sm font-medium text-center sm:text-left">
-                          {fixture.stadium}
+                          <div>{fixture.stadiumLine1}</div>
+                          <div>{fixture.stadiumLine2}</div>
                         </div>
                       </div>
                     </div>
