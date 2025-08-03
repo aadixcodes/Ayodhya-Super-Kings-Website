@@ -4,9 +4,9 @@ export const blogPosts = [
       slug: "rise-of-ayodhya-super-kings",
       title: "The Rise of Ayodhya Super Kings",
       description: "How Ayodhya's new volleyball franchise is making waves in the UPPVL with strategic picks and regional pride.",
-      date: "July 21, 2025",
+      date: "August 04, 2025",
       image: "/assets/blog1.JPG",
-      author: "Sports Journalist",
+      author: "Ayodhya Super Kings",
       readTime: "4 min read",
       content: [
         {
@@ -58,9 +58,9 @@ export const blogPosts = [
       slug: "volleyball-next-big-thing",
       title: "Why Volleyball is the Next Big Thing in Indian Sports",
       description: "Exploring volleyball's growing popularity in India and why leagues like UPPVL are changing the game.",
-      date: "July 21, 2025",
+      date: "August 04, 2025",
       image: "/assets/blog2.JPG",
-      author: "Sports Analyst",
+      author: "Ayodhya Super Kings",
       readTime: "5 min read",
       content: [
         {
@@ -116,9 +116,9 @@ export const blogPosts = [
       slug: "volleyball-player-roles",
       title: "Setter, Spiker, Libero — Understanding Volleyball Player Roles",
       description: "A beginner's guide to volleyball positions featuring Ayodhya Super Kings' star players.",
-      date: "July 21, 2025",
+      date: "August 04, 2025",
       image: "/assets/blog3.JPG",
-      author: "Volleyball Coach",
+      author: "Ayodhya Super Kings",
       readTime: "6 min read",
       content: [
         {
@@ -181,9 +181,9 @@ export const blogPosts = [
       slug: "fans-are-real-kings",
       title: "Why Fans Are the Real Kings of the Game",
       description: "How Ayodhya Super Kings is building a passionate fan community that fuels the team's spirit.",
-      date: "July 21, 2025",
+      date: "August 04, 2025",
       image: "/assets/blog4.JPG",
-      author: "Fan Engagement Manager",
+      author: "Ayodhya Super Kings",
       readTime: "4 min read",
       content: [
         {

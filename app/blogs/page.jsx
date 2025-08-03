@@ -48,10 +48,10 @@ export default function Blogs() {
                 />
               </div>
               <div className="p-6">
-                <div className="flex items-center text-sm text-gray-700 mb-3">
+                {/* <div className="flex items-center text-sm text-gray-700 mb-3">
                   <Calendar className="w-4 h-4 mr-2" />
                   <span>{post.date}</span>
-                </div>
+                </div> */}
                 <h3 className="text-xl font-bold text-gray-900 mb-3 line-clamp-2">{post.title}</h3>
                 <p className="text-gray-700 mb-4 line-clamp-3">{post.description}</p>
                 <div className="text-center">

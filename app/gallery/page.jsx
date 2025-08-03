@@ -75,7 +75,6 @@ export default function Gallery() {
           
         </div>
       </section>
-      <Partner />
     </div>
   );
 }
