@@ -14,7 +14,7 @@ const MatchesSection = () => {
   const matches = [
     {
         id: 2,
-        league: "Uttar Pradesh Pro Volleyball League",
+        league: "Pro Volleyball League",
         date: "AUGUST 7, 2025",
         day: "THURSDAY",
         time: "17:00",

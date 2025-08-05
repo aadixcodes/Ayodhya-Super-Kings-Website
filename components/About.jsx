@@ -120,7 +120,7 @@ const AboutUs = () => {
           {/* Text Content */}
           <div className="space-y-6">
             <p className="text-lg text-[#1c0f0d] leading-relaxed">
-              From the sacred soil of Ram Janmbhoomi to the roaring courts of UPPVL, Ayodhya Super Kings <span className="font-bold"> RISE </span>as a symbol of pride, purpose, and power. We are more than a team — we are the living heartbeat of Ayodhya, blending ancient wisdom with youthful energy to create a new dynasty in Indian volleyball.
+              From the sacred soil of Ram Janmbhoomi to the roaring courts of UPPVL, Ayodhya Super Kings <span className="font-bold"> Rise </span>as a symbol of pride, purpose, and power. We are more than a team — we are the living heartbeat of Ayodhya, blending ancient wisdom with youthful energy to create a new dynasty in Indian volleyball.
             </p>
             <p className="text-lg text-[#1c0f0d] leading-relaxed">
               Every chant in our city echoes dharma, and every move on our court reflects discipline. Inspired by Ayodhya's spiritual legacy and fueled by a new wave of volleyball warriors, our team stands tall — determined to reign not just through strength, but through spirit.
